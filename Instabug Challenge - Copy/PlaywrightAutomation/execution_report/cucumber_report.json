@@ -1,0 +1,109 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-with-text;003-search-for-a-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "003 Search for a website",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the google home page",
+            "match": {
+              "location": "features\\steps\\StepDefinations01.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13191000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "website"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "sa3dawy.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I search for a website name",
+            "match": {
+              "location": "features\\steps\\StepDefinations03.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Result Heading"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "sa3dawy garage."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can find the website in the results",
+            "match": {
+              "location": "features\\steps\\StepDefinations03.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1627000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-with-text",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search with text",
+    "tags": [],
+    "uri": "features\\featureName\\Test03_BDD.feature"
+  }
+]

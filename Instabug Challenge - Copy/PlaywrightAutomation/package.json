@@ -1,0 +1,35 @@
+{
+  "name": "PlaywrightAutomationFramework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.1.0",
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "bufferutil": "^4.0.3",
+    "cucumber-html-reporter": "^5.4.0",
+    "dateformat": "^4.5.1",
+    "events": "^3.3.0",
+    "exceljs": "^4.2.1",
+    "ffmpeg": "0.0.4",
+    "fs": "^0.0.1-security",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "node": "^15.14.0",
+    "performance-now": "^2.1.0",
+    "playwright": "^1.14.0",
+    "playwright-video": "^2.4.0",
+    "read-excel-file": "^5.1.0",
+    "utf-8-validate": "^5.0.4",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test": "cucumber-js --parallel 1 -f json:./execution_report/cucumber_report.json --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

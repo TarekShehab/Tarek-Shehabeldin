@@ -1,0 +1,5 @@
+{
+    "TEST_URL": "https://google.com",
+    "CaptureVideo":"true",
+    "Browser":"chromium"
+}
